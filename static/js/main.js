@@ -60,9 +60,7 @@ function sendValue() {
     type: "POST",
     success: function (data) {
       var json = jQuery.parseJSON(data);
-      //alert('success');
       $("#len").html(json.len);
-      // console.log(data);
     },
     error: function (error) {
       console.log(error);

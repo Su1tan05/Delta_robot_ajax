@@ -13,7 +13,7 @@ def my_form_post():
     theta1 = request.form['input_text1']
     theta2 = request.form['input_text2']
     theta3 = request.form['input_text3']
-    printer(int(float(theta1)), theta2, theta3)
+    printer(theta1, theta2, theta3)
     return theta1
 
 def printer(theta1, theta2, theta3):
